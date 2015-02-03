@@ -1,0 +1,12 @@
+.radio_infation{
+    width: 140px;
+    float: left;
+}
+.select_information{
+    width: 95px;
+    border: 1px solid #e98702;
+    border-right: none;
+    background: none;
+    height: 35px;
+}
+

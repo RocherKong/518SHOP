@@ -1,0 +1,92 @@
+body{
+    //margin: 0px;
+    font-family: "宋体";
+}
+#login_page{width: 1100px;margin: 0 auto;}
+a{text-decoration:none;color: #000;}
+.login_header{height: 100px;padding-top: 30px;}
+.login_header h1{margin: 0;padding: 0;}
+.login_header img{width: 250px;height: 70px;}
+.login_content_left,.login_content_right{
+    float: left;
+}
+.login_border{
+    border:1px solid #ccc;
+    z-index:1;
+    width:315px;
+}
+.txt_user{
+    border: 1px solid #dedede;
+    height: 25px;
+    line-height: 19px;
+    padding: 3px 3px 3px 30px;
+    vertical-align: middle;
+    width: 220px;
+    margin-top: -10px;
+}
+.user{
+    background:url("/images/user.png") no-repeat scroll -1% 0px #fff;
+}
+.pass{
+    margin-top: 15px;
+    background:url("/images/lock.png") no-repeat scroll -3% 0px #fff;
+}
+.login_text,.btn_login{text-align: center;}
+.login_text_h1{
+    height: 70px;
+    padding: 20px 20px 0px 28px;
+}
+.foget_password a{
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.btn_login_sub{
+    margin-top: 22px;
+    width: 255px;
+    height: 38px;
+    border: none;
+    background: none repeat scroll 0 0 #ff4700;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn_login{
+    margin-bottom: 70px;
+}
+.login_content_left{
+    width: 775px;
+    height: 331px;
+}
+.login_content_left img{
+    width: 775px;
+    height: 331px;
+}
+.border_bottom{
+    border-bottom: 1px solid #000;
+}
+.span_text{
+    float: left;
+}
+.ht60{
+    height: 60px;
+}
+.line_height15{
+    line-height: 15px;
+}
+.find_pass{
+    margin: 1px auto;
+    width: 700px;
+}
+.stepInfo{position:relative;margin:20px auto 0 auto;width:1000px;height: 100px;}
+.stepInfo li{float:left;width:50%;height:0.15em;background:#bbb;list-style-type:none;}
+.stepIco{border-radius:1em;padding:0.03em;background:#bbb;text-align:center;line-height:1.5em;color:#fff; position:absolute;width:1.4em;height:1.4em;}
+.stepIco1{top: -0.7em;left:2%;}
+.stepIco2{top: -0.7em;left:33%;}
+.stepIco3{top: -0.7em;left:65%;}
+.stepIco4{top: -0.7em;left:100%;}
+.stepText{color:#666;margin-top:0.2em;width:5em;text-align:center;margin-left:-1.4em;font-size: 10px;}
+.doing{
+    background: #ff6824;
+}

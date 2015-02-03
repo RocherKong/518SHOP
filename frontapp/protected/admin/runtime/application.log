@@ -1,0 +1,40 @@
+2015/01/22 06:06:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\wamp\www\yii\testyii\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin.php/
+---
+2015/01/30 03:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\wamp\www\yii\testyii\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin.php/site/login
+---
+2015/01/30 03:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\wamp\www\yii\testyii\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin.php/
+---
+2015/01/30 03:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\wamp\www\yii\testyii\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin.php/
+---
